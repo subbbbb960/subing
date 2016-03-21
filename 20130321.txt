@@ -1,0 +1,21 @@
+프로그래밍을 격자구조로 만들자 (오리 구조)
+ㄴSOLID원칙
+
+LSP 한정상속(한정된부분만 상속)
+
+Dependency Inversion
+화살표만 바꾸기
+
+-interactions-
+> Object o1 =new String("abc")
+> Object o2 =new String("def")
+> ((String)o1).compareTo((String)o2)
+-3
+
+array  arratlist 분리하는이유
+안늘어남 하나는고무줄같음
+
+과제
+com.j2.w3;
+
+디자인패턴을쓰는이유 : 자주발생하는 문제(오류는x)에대한 해답을 가져다가 쓰는것
