@@ -1,0 +1,36 @@
+git bash에서 거북이실행
+
+javac -d classes/ -cp classes/\; lib/aplu5.jar -sourcepath src/ src/com/sd/turtle/WeightTurtle.java
+
+java -cp classes/\; lib/aplu5.jar com.sd.turtle.WeightTurtleMain
+
+<안됨ㅜㅜ>
+
+
+cmd에서 빨간거북이 실행
+
+javac -d classes -sourcepath src -cp lib\aplu5.jar src\com\sd\turtle\WeightTurtleMain
+
+java -cp classes;lib\aplu5.jar com.sd.turtle.WeightTurtleMain
+
+
+
+
+앞으로 프로그래밍 어떻게할꺼니? 이렇게말하면 아주훌륭함
+
+SOLID (Martin, R. C., "Design principles and design patterns",2000, objectmentor.com)
+	SRP Single Responsibility Principle
+	OCP Open Closed Principle
+	LSP Liskov Substitution Principle
+	ISP Interface Segregation Principle
+	DIP Dependency Inversion Principle
+즉, coupling and cohesion, inheritance, interface, and polymorphism, delegation, aggregation을 사용하여 Good Design
+
+
+오리만들기(소스는 j / src / headfirst / strategy)
+
+
+----▷끊긴 빈세모
+─▷ 안끊긴 빈세모
+----> 끊긴 화살표
+─>  안끊긴 화살표
